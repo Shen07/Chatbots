@@ -68,6 +68,10 @@ for installing rasa x locally in windows follow the steps
  [rasa installation](https://rasa.com/docs/rasa/installation/)
 
 
+
+**Must Checkout** [Creating a feedback bot that will save and export data to csv](https://www.cedextech.com/blog/rasa-chatbot/)
+
+
 > Videos
 > 
 [Step by step tutorial using rasa (old version)](https://www.youtube.com/watch?v=sazsWmP2d3o)
