@@ -1,4 +1,7 @@
- - Python: 3.8.3 
+ # Env Setup for Rasa 2.0
+
+
+- Python: 3.8.3 
  - Tensorflow: 2.3.1 
  - Rasa Version     : 2.0.2 
  - Rasa SDK Version : 2.0.0 
@@ -16,6 +19,8 @@
 
 
  **Installing on windows**
+
+    
 
     pip install rasa[spacy]==2.0.2
 
