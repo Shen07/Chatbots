@@ -52,7 +52,7 @@ class ActionSearchRestaurants(Action):
         
     def run(self, dispatcher, tracker, domain):        
         count = 0
-        config={ "user_key":"24aa4417d4a5f2558c441a897aa001ad"} #Get your key from zomato api
+        config={ "user_key":} #Get your key from zomato api
         zomato = zomatopy.initialize_app(config)
         loc = tracker.get_slot('location')
         cuisine = tracker.get_slot('cuisine')
