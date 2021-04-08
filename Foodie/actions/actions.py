@@ -100,9 +100,9 @@ class ActionSendEmail(Action):
         return 'action_sendemail'
 
     def run(self, dispatcher, tracker, domain):
-        from_user = 'foobooug@gmail.com' # create your gmail id and paste here
+        from_user = '' # create your gmail id and paste here
         to_user = tracker.get_slot('email')
-        password = 'Upgrad#2019' # create your gmail id and paste here
+        password = '' # create your gmail id and paste here
         server = smtplib.SMTP('smtp.gmail.com',587)
         server.starttls()
         server.login(from_user, password)
